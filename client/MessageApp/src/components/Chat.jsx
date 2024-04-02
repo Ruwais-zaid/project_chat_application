@@ -18,7 +18,7 @@ const Chat = () => {
     setRoom(room);
 
     // Initialize socket connection when component mounts
-    const newSocket = io('http://localhost:3001');
+    const newSocket = io('https://project-chat-application-api.vercel.app"');
     setSocket(newSocket);
 
     // Join the room
