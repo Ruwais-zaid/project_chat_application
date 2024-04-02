@@ -16,9 +16,9 @@ const Message = ({message,username,name}) => {
         </div>
     ):
     (
-        <div className="messageContainer flex p-2 mt-3 justify-start">
+      <div className="messageContainer flex p-2 mt-3 justify-start">
           <div className="messageBox rounded-b-md rounded-t-md p-2 font-sans text-white w-[23%] bg-gray-400">
-            <p className="messageText w-[100%] float-left text-[1.1em] text-black">{ReactEmoji.emojify(message)}</p>
+            <p className="messageText w-[100%]  text-[1.1em] text-black">{ReactEmoji.emojify(message)}</p>
           </div>
           <p className="sentText flex items-center font-sans text-[#828282]  pl-10 ">{username}</p>
         </div>
